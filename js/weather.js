@@ -1,4 +1,4 @@
-const API_KEY="ec1d50a178108aa618ed26a1539900aa"
+
 
 
 function onGeoOk(position){
@@ -11,7 +11,7 @@ function onGeoOk(position){
       const weather = document.querySelector("#weather span:first-child");
       const city = document.querySelector("#weather span:last-child");
       city.innerText = data.name;
-      weather.innerText =`${data.weather[0].main} / ${data.main.temp}°C`;
+      weather.innerText =`${data.weather[0].main} / ${data.main.temp}℃`;
     });
 }
 function onGeoError(){

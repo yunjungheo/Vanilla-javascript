@@ -9,22 +9,25 @@
   list-style:none;
   box-sizing: border-box;
 }
-.wrap{position: absolute;left: 50%; transform: translateX(-50%)translateY(20%);text-align: center; font-family: 'Roboto Mono', monospace;}
+.wrap{width:50%; height:auto; position: absolute; left: 50%; transform: translateX(-50%)translateY(20%); text-align: center; font-family: 'GangwonEdu_OTFBoldA'; background-color: rgba(0,0,0,0.5); color: #fff; }
+
 /* form 공통 css */
-.wrap form input{background-color: transparent; border:none;border-bottom: 1px solid;}
-.wrap form input::placeholder{color: black; font-size: 20px;}
+.wrap form input{background-color: transparent; border:none; border-bottom: 1px solid #fff;}
+.wrap form input::placeholder{color: #fff; font-size: 20px;}
 
 /* login-form css */
 .wrap #login-form button{background-color: transparent; padding: 2px 12px;}
-#greeting {font-family: 'GangwonEdu_OTFBoldA'; font-size: 40px;}
+#greeting {font-size: 40px;}
 
 /* todo-form css */
 .wrap #todo-form{padding-top: 20px;}
-.wrap #todo-form input{width: 50%; text-align:center; padding: 5px;}
+.wrap #todo-form input{width: 60%; text-align:center; padding: 5px;font-family: 'GangwonEdu_OTFBoldA';}
 
-#clock{font-size: 100px;}
+#clock{font-size: 100px;font-family: 'Roboto Mono', monospace; color: ;}
 
 #todo-list button{background-color: transparent; border: none;}
 .hidden{display: none;}
-#todo-list span{font-family: 'GangwonEdu_OTFBoldA';}
-img {position:absolute; width:100%; height:100%; left: 0px; top: 0px; right:0px; bottom:0px; z-index: -1;}
+#todo-list span{}
+img {position:absolute; width:100%; height:auto; left: 0px; top: 0px; right:0px; bottom:0px; z-index: -1;}
+#quote{padding: 20px 0;}
+#quote span{display: block;}
