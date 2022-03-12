@@ -16,14 +16,14 @@
 .wrap form input::placeholder{color: #fff; font-size: 20px;}
 
 /* login-form css */
-.wrap #login-form button{background-color: transparent; padding: 6px 12px;border: 1px solid #fff;}
+.wrap #login-form button{background-color: transparent; padding: 6px 12px;border: 1px solid #fff; color: #fff; border-radius: 10px;}
 #greeting {font-size: 40px;}
 
 /* todo-form css */
 .wrap #todo-form{padding-top: 20px;}
 .wrap #todo-form input{width: 60%; text-align:center; padding: 5px;font-family: 'GangwonEdu_OTFBoldA';}
 
-#weather{}
+#weather{padding-bottom: 23px;}
 
 #clock{font-size: 100px;font-family: 'Roboto Mono', monospace; color: ;}
 
